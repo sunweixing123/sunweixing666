@@ -1,0 +1,40 @@
+/*fouth开始*/
+.fouth .fouth-1{
+    height: 100%;
+    width: 1226px;
+    background: #fff;
+    margin:0 auto;
+}
+.fouth{
+    background: #fff;
+    height: 460px;
+    margin-bottom: 10px;
+}
+.fouth .fouth-1-1{
+    width: 18%;
+    height: 100%;
+    float:left;
+    background: #333;
+    background: rgba(0,0,0,0.6);
+}
+.fouth .fouth-2-2-2{
+    display: block;
+    padding:13px 25px;
+    color: #ffffff;
+    font-size: 14px;
+}
+.fouth .fouth-3{
+    float:right;
+    width: 82%;
+    height: 100%;
+    background-image: url("../images/小米网站图片/xmad_1508247448511_leCdQ.jpg");
+    background-size:100% 100%;
+}
+.fouth .fouth-2-2-2:hover{
+    background:#ff6700;
+}
+.fouth .fouth-2-1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*fouth结束*/
