@@ -23,12 +23,55 @@
     color: #ffffff;
     font-size: 14px;
 }
-.fouth .fouth-3{
+.fouth #container{
+    position: relative;
     float:right;
     width: 82%;
     height: 100%;
-    background-image: url("../images/小米网站图片/xmad_1508247448511_leCdQ.jpg");
-    background-size:100% 100%;
+}
+.fouth #imgs img{
+    display:none;
+}
+.fouth #imgs .selected{
+    display: block;
+    width: 1005px;
+    height: 460px;
+}
+#tab{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+#tab li{
+    height: 20px;
+    width: 20px;
+    background: #000;
+    color:#fff;
+    float: left;
+    margin-right:5px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+#tab .selected{
+    background: #ff6700;
+}
+#arrow1{
+    position: absolute;
+    left: 10px;
+    bottom: 200px;
+    cursor: pointer;
+}
+#arrow2{
+    position: absolute;
+    right: 10px;
+    bottom: 200px;
+    cursor: pointer;
+}
+#arrow1 #prav{
+    width: 41px;
+    height: 69px;
+    color: #ffffff;
 }
 .fouth .fouth-2-2-2:hover{
     background:#ff6700;

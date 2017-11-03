@@ -88,11 +88,10 @@ img{
 }
 /*nav结束*/
 /*site-header开始*/
-.site-header wrapper{
-    width: 1226px;
-}
 .site-header{
+    width: 1226px;
     height: 100px;
+    margin:0 auto;
 }
 .site-header .header-logo{
     height: 55px;
@@ -144,6 +143,7 @@ img{
     box-shadow: 0 2px 2px rgba(0,0,0,0.1);
     height: 0;
     transition: height 0.2s ease-out;
+    z-index: 2;
 }
 .site-header .header-sub-nav li{
     float:left;
@@ -155,47 +155,43 @@ img{
     height: 229px;
 }
 /*商品图片开始*/
-.site-header .background1,.background2,.background3,.background4,.background5,.background6{
-    height:229px;
-    width: 200px;
+.site-header img{
+    height:56%;
+    width: 170px;
     background-repeat: no-repeat;
     background-size:160px 110px;
     text-align: center;
-    margin-top: 1px;
+    margin-top: 32px;
 }
-.site-header .background1{
-    background-image: url("../images/小米网站图片/mix2320-220.png") ;
-}
-.site-header .background2{
-    background-image: url("../images/小米网站图片/note2320220.png") ;
-}
-.site-header .background3{
-    background-image: url("../images/小米网站图片/xm6-320.png") ;
-}
-.site-header .background4{
-    background-image: url("../images/小米网站图片/max2_toubu.png") ;
-}
-.site-header .background5{
-    background-image: url("../images/小米网站图片/5x-2160110.jpg") ;
-}
-.site-header .background6{
-    background-image: url("../images/小米网站图片/xiaomiNOTE2-320-220160110.jpg") ;
-}
+/*.site-header .background1{*/
+    /*background-image: url("../images/小米网站图片/mix2320-220.png") ;*/
+/*}*/
+/*.site-header .background2{*/
+    /*background-image: url("../images/小米网站图片/note2320220.png") ;*/
+/*}*/
+/*.site-header .background3{*/
+    /*background-image: url("../images/小米网站图片/xm6-320.png") ;*/
+/*}*/
+/*.site-header .background4{*/
+    /*background-image: url("../images/小米网站图片/max2_toubu.png") ;*/
+/*}*/
+/*.site-header .background5{*/
+    /*background-image: url("../images/小米网站图片/5x-2160110.jpg") ;*/
+/*}*/
+/*.site-header .background6{*/
+    /*background-image: url("../images/小米网站图片/xiaomiNOTE2-320-220160110.jpg") ;*/
+/*}*/
 /*商品图片结束*/
 /*标题开始*/
-.site-header .item11{
-    font-size: 12px;
-    text-align: center;
-}
-.site-header .item1{
-    position:absolute;
-    display:inline-block;
-    height: 18px;
-    padding: 1px 20px;
-    border: 1px solid ;
-    color: #ff6700;
-    margin-top:1px;
-}
+/*.site-header .item11{*/
+    /*position:absolute;*/
+    /*display:inline-block;*/
+    /*height: 18px;*/
+    /*padding: 1px 20px;*/
+    /*border: 1px solid ;*/
+    /*color: #ff6700;*/
+    /*margin-top:1px;*/
+/*}*/
 /*标题结束*/
 /*header-search开始*/
 .header-search {
