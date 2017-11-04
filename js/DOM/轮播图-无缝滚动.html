@@ -121,10 +121,10 @@
             changeImg();
         };
         play();
-        ocontainer.onmouthover=function(){
+        ocontainer.onmouseover=function(){
             clearInterval(timer);
         };
-        ocontainer.onmouthout=function(){
+        ocontainer.onmouseout=function(){
             play();
         };
         function changeImg() {
@@ -132,7 +132,7 @@
                 ali[i].className = '';
             }
             ali[inowindex == ali.length ? 0 : inowindex].className = 'selected';
-
+//                ali.length是五
             //图片切换
             animate(oImgs, {
                 left: -oImgWidth * inowindex
