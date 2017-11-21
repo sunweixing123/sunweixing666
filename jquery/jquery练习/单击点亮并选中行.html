@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>表格隔行变色</title>
+    <title>点亮选中</title>
     <style>
         *{
             margin: 0;
@@ -51,13 +51,20 @@
     <tr><td>rain</td><td>男</td><td>浙江宁波</td></tr>
     <tr><td>maxman</td><td>男</td><td>浙江宁波</td></tr>
 </table>
-</body>
 <script src="../jquery-3.2.1.js"></script>
 <script>
     $(function(){
-        $("tbody>tr:odd").addClass("odd");
-//        tbody>tr从第二行开始
-        $("tbody>tr:even").addClass("even");
+        $("abody>tr:odd").addClass("odd");
+        $("abody>tr:even").addClass("even");
+        $("abody>tr").on("click",function(){
+            var hasSelected=$(this).hasClass("selected");
+            $(this)[hasSelected?"removeClass":"addClass"]("selected")
+                .find(":checkbox").attr("checked",!hasSelected)
+
+        })
     })
+
+
 </script>
+</body>
 </html>
