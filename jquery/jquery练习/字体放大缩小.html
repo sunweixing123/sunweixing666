@@ -51,7 +51,14 @@
             var thisele=$(".index").css("font-size");
             var textfontsize=parseFloat(thisele,10);
             var unit=thisele.slice(-2);
-
+            var cname=$(this).attr("class");
+            if(cname=="smaller"){
+                textfontsize-=2;
+            }
+            if(cname=="bigger"){
+                textfontsize+=2;
+            }
+            $(".index").css("font-size",textfontsize+unit);
         });
     })
 </script>
